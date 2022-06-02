@@ -142,6 +142,7 @@ class Main {
 			'footer-two-widgets',
 			'footer-three-widgets',
 			'footer-four-widgets',
+			'footer-five-widgets',
 		);
 		$hide               = '';
 		foreach ( $sidebars_to_search as $id ) {

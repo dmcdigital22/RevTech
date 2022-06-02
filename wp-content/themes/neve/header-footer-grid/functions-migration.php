@@ -348,6 +348,7 @@ function neve_hfg_legacy_footer_settings() {
 		'footer-two-widgets',
 		'footer-three-widgets',
 		'footer-four-widgets',
+		'footer-five-widgets',
 	);
 	for ( $i = 0; $i < $sidebars; $i ++ ) {
 		$builder['desktop']['top'][ $sidebars_names[ $i ] ] = [

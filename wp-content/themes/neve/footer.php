@@ -77,11 +77,14 @@ if($currentUrl=="http://103.76.253.132/revtech/sales-teams/" || $currentUrl=="ht
 
 <script>
 jQuery(document).ready(function(){
-        jQuery("img.neve-site-logo").attr("src", "http://103.76.253.132/revtech/wp-content/uploads/2022/05/MicrosoftTeams-image.png");
-       
+        jQuery(".title-with-logo").html('<img width="4611" height="660" src="http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png" class="neve-site-logo skip-lazy mainiamge" alt="" loading="lazy" data-variant="logo" srcset="http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png 4611w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png 300w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png 1024w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png 768w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png 1536w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/LogoWhite.png 2048w" sizes="(max-width: 4611px) 100vw, 4611px"><img width="4611" height="660" src="http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png" class="neve-site-logo stickyimage skip-lazy" alt="" loading="lazy" data-variant="logo" srcset="http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png 4611w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png 300w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png 1024w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png 768w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png 1536w, http://103.76.253.132/revtech/wp-content/uploads/2022/05/Logo.png 2048w" sizes="(max-width: 4611px) 100vw, 4611px">');  
+	
 });
 </script>
 <?php } ?>
+
+
+
 </body>
 
 </html>

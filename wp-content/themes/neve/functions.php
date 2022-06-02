@@ -138,4 +138,17 @@ if ( neve_is_new_widget_editor() ) {
     }
 }
 
+function strappress_widgets_init() {
+	
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Five', 'strappress' ),
+		'id'            => 'footer-3',
+		'description'   => esc_html__( 'Add widgets here.', 'strappress' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
+	) );
+}
+add_action( 'widgets_init', 'strappress_widgets_init' );
 require_once get_template_directory() . '/header-footer-grid/loader.php';

@@ -32,6 +32,7 @@ add_theme_support(
 				'HFG\Core\Components\FooterWidgetTwo',
 				'HFG\Core\Components\FooterWidgetThree',
 				'HFG\Core\Components\FooterWidgetFour',
+				'HFG\Core\Components\FooterWidgetFive',
 				'HFG\Core\Components\NavFooter',
 				'HFG\Core\Components\Copyright',
 			),

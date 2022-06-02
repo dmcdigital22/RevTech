@@ -378,6 +378,7 @@ class Front_End {
 				'footer-two-widgets'   => esc_html__( 'Footer Two', 'neve' ),
 				'footer-three-widgets' => esc_html__( 'Footer Three', 'neve' ),
 				'footer-four-widgets'  => esc_html__( 'Footer Four', 'neve' ),
+				'footer-five-widgets'  => esc_html__( 'Footer Five', 'neve' ),
 			)
 		);
 
